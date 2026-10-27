@@ -55,6 +55,12 @@ class MyApp extends StatelessWidget {
                     },
                     child: Text('En savoir plus'),
                   ),
+                  TextButton(
+                    onPressed: () {
+                      print("Tu as cliqué sur le TextButton.");
+                    },
+                    child: Text('Texte seul'),
+                  ),
                 ],
               ),
             ],
