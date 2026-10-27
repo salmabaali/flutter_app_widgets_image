@@ -24,15 +24,15 @@ class MyApp extends StatelessWidget {
             children: [
               SizedBox(height: 20),
               Text(
-                'Bienvenue dans cet atelier !',
+                'Mon premier écran Flutter',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blueAccent,
+                  color: Colors.deepOrange,
                 ),
               ),
               SizedBox(height: 20),
-              Image.network('https://picsum.photos/200', width: 200),
+              Image.network('https://picsum.photos/id/1015/300', width: 200),
               SizedBox(height: 20),
               Text(
                 'Découvrez comment construire une interface simple et élégante.',
